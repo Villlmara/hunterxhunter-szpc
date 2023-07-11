@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hunter X Hunter</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/CSS/reset.css" />
+    <link rel="stylesheet" href="./src/CSS/estilos.css" />
+    <link rel="stylesheet" href="./src/CSS/responsive.css" />
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <img
+        class="logo"
+        src="./src/Imagens/logo_hunter_x_hunter-removebg-preview-transformed.png"
+        alt="Logo Hunter X Hunter"
+      />
+    </header>
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione seu caçador</h1>
+        <ul class="lista-de-personagens">
+          <li
+            class="personagem selecionado"
+            id="gon"
+            data-name="gon"
+            data-description="Gon Freecss é um menino alegre e aventureiro que cresceu na Ilha da Baleia aos cuidados de sua tia Mito. Ele seguiu sua vida acreditando que seus pais haviam morrido em um acidente e descobre que isso não era bem a verdade após ser salvo de um ataque animal na floresta por Kaito, um Hunter profissional, aprendiz de seu pai."
+          >
+            <img src="./src/Imagens/card-gon.jpg" alt="Personagem Gon" />
+          </li>
+          <li
+            class="personagem"
+            id="killua"
+            data-name="killua"
+            data-description="Killua é um dos principais protagonistas do mangá Hunter x Hunter e melhor amigo de Gon. Killua é um assassino integrante da maior família de assassinos do mundo, os Zoldyck, porém, fugiu de casa e da tutela de seus pais aspirando por novos horizontes, tendo entrado no exame hunter como um desafio a si mesmo."
+          >
+            <img src="./src/Imagens/card-killua.jpg" alt="Personagem Killua" />
+          </li>
+
+          <li
+            class="personagem"
+            id="kurapika"
+            data-name="kurapika"
+            data-description="Ele é o último sobrevivente da tribo Kuruta. É caracterizado por seu senso de justiça, a alta inteligência e pelo desejo incontrolável de vingança. Ele é o personagem principal da saga e dos OVAs de York Shin. No Brasil, Kurapika teve seu nome alterado para Kurapaika a fim de evitar trocadilhos."
+          >
+            <img
+              src="./src/Imagens/card-kurapika.jpg"
+              alt="Personagem Kurapika"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="leorio"
+            data-name="leorio"
+            data-description="Leorio Paradinight é um caçador novato e atualmente um estudante de medicina, bem como um membro dos zodíacos com o codinome 'Javali'. Ele faz parte da Divisão de Ciências, criada em preparação para a viagem ao Continente Negro."
+          >
+            <img src="./src/Imagens/card-leorio.jpg" alt="Personagem Leorio" />
+          </li>
+
+          <li
+            class="personagem"
+            id="chrollo"
+            data-name="chrollo"
+            data-description="Ele é o líder da Trupe Fantasma e o principal antagonista do arco de York Shin. Depois de tentar uma invasão em um leilão, ele é vítima da Cadeia de Julgamento de Kurapika, que o proíbe de usar Nen ou falar com os outros membros da Trupe. Isso o força a procurar um Exorcista que possa remover a corrente. Ele é o arqui-inimigo de Kurapika e Hisoka."
+          >
+            <img
+              src="./src/Imagens/card-chrollo.jpg"
+              alt="Personagem Chrollo Lucilfer"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="hisoka"
+            data-name="hisoka"
+            data-description="Seria Hisoka o Coringa de Hunter x Hunter? Pode ser… só que ainda mais sádico e três vezes mais poderoso. Hisoka é egoísta, sadomasoquista e sociopata – só com isso dá pra perceber com quem estamos lidando. Ele não possui valores concretos. O que é importante para ele hoje, amanhã pode estar no lixo. Capaz de matar pessoas de quaisquer idades sem remorso algum, ele é extremamente poderoso e sabe utilizar o Nen de forma impressionante."
+          >
+            <img src="./src/Imagens/card-hisoka.jpg" alt="Personagem Hisoka" />
+          </li>
+
+          <li
+            class="personagem"
+            id="biscuit"
+            data-name="biscuit"
+            data-description="É profissional Treasure Hunter que se alistou para ajudar a zerar o vídeo game Greed Island, após o leilão para o jogo em yorkshin. Ela prefere ser chamada de Bisky. Biscuit gosta de agir e parecer como uma jovem, apesar de possuir 57 anos."
+          >
+            <img
+              src="./src/Imagens/card-biscuit.jpg"
+              alt="Personagem Biscuit"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="meruem"
+            data-name="meruem"
+            data-description="Meruem, também conhecido apenas como Rei, é o principal antagonista do arco das Formigas Quimera de Hunter x Hunter. Ele é sem dúvidas, um dos personagens mais fortes do anime, tendo em vista a sua força imensa mostrada na luta contra Netero."
+          >
+            <img src="./src/Imagens/card-meruem.jpg" alt="Personagem Meruem" />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/Imagens/card-gon.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Gon</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Gon Freecss é um menino alegre e aventureiro que cresceu na Ilha da
+            Baleia aos cuidados de sua tia Mito. Ele seguiu sua vida acreditando
+            que seus pais haviam morrido em um acidente, mas descobre que isso
+            não era bem a verdade após ser salvo de um ataque animal na floresta
+            por Kaito, um Hunter profissional, aprendiz de seu pai.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
