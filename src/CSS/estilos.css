@@ -6,7 +6,7 @@ body {
 
 body::before {
   content: "";
-  background-image: url(../Imagens/ppp.jpg);
+  background-image: url(../Imagens/bg-desktop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
